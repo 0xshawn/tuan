@@ -11,4 +11,4 @@ from common import render
 def user_home():
     now = datetime.datetime.now()
 
-    return render.ok('This is home page' + now)
+    return render.ok('This is home page. ' + str(now))
