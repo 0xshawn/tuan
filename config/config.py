@@ -11,7 +11,7 @@ class BaseConfig(object):
     DB_ERASABLE = True
     SECRET_KEY = os.environ.get('SECRET_KEY', 'development-secret-key')
     MONGODB_SETTINGS = {
-        'db': 'tuan-development',
+        'db': 'tuan-dev',
         # 'host': os.environ['MONGO_DB']
         'host': 'localhost',
         'port': 27017

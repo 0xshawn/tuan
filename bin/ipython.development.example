@@ -6,7 +6,7 @@ export PYTHONPATH=`pwd`
 
 # DB Configuration
 # Use MongoDB
-export MONGO_DB='mongodb://localhost:27017/cabbage-center-production'
+export MONGO_DB='mongodb://localhost:27017/tuan-dev'
 
 # iPython
 ipython
